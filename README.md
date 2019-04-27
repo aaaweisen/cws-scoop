@@ -10,5 +10,5 @@ scoop update
 
 # Add this bucket
 ```
-scoop bucket add wangzq https://github.com/aaaweisen/cws-scoop
+scoop bucket add cws-scoop https://github.com/aaaweisen/cws-scoop
 ```
