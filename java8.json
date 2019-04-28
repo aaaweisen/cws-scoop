@@ -1,4 +1,9 @@
 ﻿{
-    "version": "8u202",
-    "url": "https://download.oracle.com/otn/java/jdk/8u202-b08/1961070e4c9b4e26a04e7f5a083f551e/jdk-8u202-windows-x64.exe"
+    "version": "1.8.202",
+    "url": "http://ghaffarian.net/downloads/Java/jdk-8u202-windows-x64.exe",
+	"extract_dir": "jdk8",
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    }
 }
