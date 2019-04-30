@@ -1,9 +1,14 @@
 ﻿{
     "version": "1.8.202",
-    "url": "http://ghaffarian.net/downloads/Java/jdk-8u202-windows-x64.exe",
-	"extract_dir": "jdk8",
     "env_add_path": "bin",
+	"bin":"bin\\java.exe",
     "env_set": {
         "JAVA_HOME": "$dir"
-    }
+    },
+	"architecture": {
+		"64bit": {
+			"url": "http://ghaffarian.net/downloads/Java/jdk-8u202-windows-x64.exe"
+		}
+    },
+    "innosetup": true
 }
