@@ -2,6 +2,8 @@
     "version": "7.2.10.151",
     "url": "https://dldir1.qq.com/foxmail/windows/FoxmailSetup_7.2.10.151.exe#/dl.7z",
     "bin": "Foxmail.exe",
+    "extract_dir": "7.2.10.151",
+	"post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "shortcuts": [
         [
             "Foxmail.exe",
