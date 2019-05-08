@@ -2,7 +2,6 @@
     "version":  "1.9.4.20190426",
     "extract_dir":  "HBuilderX",
     "url":  "https://download.dcloud.net.cn/HBuilderX.1.9.4.20190426.full.zip",
-    "hash":  "822b32e7376662e006a28d6ca7764ec4a677610eb1339ffaee18202b13678a32",
     "bin":  "HBuilderX.exe",
 	"shortcuts": [
 		["HBuilderX.exe","HBuilderX"]
